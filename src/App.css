@@ -1,4 +1,7 @@
 .App {
+  display: block;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   background-color: whitesmoke;
 }
@@ -9,8 +12,19 @@
   color: white;
 }
 
+
+.App-header h1, .App-header h2 {
+  margin: 5px 0; /* Reduce margin between headings */
+}
+
 .App-header h1 {
-  font-size: 3em
+  font-size: 1em;
+  margin: 1px;
+}
+
+.App-header h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
 }
 
 .App-header nav a{
@@ -24,6 +38,9 @@
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
   /* color: #282c34; */
 }

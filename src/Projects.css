@@ -1,0 +1,27 @@
+#projects {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#projects h2 {
+    color: #282c34
+}
+
+#projects p {
+    color: #282c34
+}
+
+#projects p :hover{
+    text-decoration: line-through;
+
+}
+
+#projects a {
+    color: #282c34
+}
+
+#projects a :hover{
+    text-decoration: line-through;
+
+}
+
