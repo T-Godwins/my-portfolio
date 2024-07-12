@@ -1,0 +1,13 @@
+#skills{
+    text-align:center;
+}
+
+#skills h2{
+    color: white
+}
+
+#skills p{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

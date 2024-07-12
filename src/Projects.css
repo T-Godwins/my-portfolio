@@ -1,27 +1,44 @@
 #projects {
-    background-color: whitesmoke;
+    /* background-color: white; */
     text-align: center;
 }
 
+
 #projects h2 {
-    color: #282c34
+    color: white;
 }
 
 #projects p {
-    color: #282c34
+    /* color: #282c34; */
+    color: white;
+    font-weight:bold;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#projects p1 {
+    /* color: #282c34; */
+    color: white;
+    font-weight:bold;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #projects p :hover{
-    text-decoration: line-through;
+    color: yellow;
 
 }
 
 #projects a {
-    color: #282c34
+    /* color: #282c34; */
+    color: white;
+    font-weight:bold;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#projects a :hover{
-    text-decoration: line-through;
+#projects p1 :hover{
+    color: aqua;
 
 }
 

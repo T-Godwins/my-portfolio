@@ -1,6 +1,7 @@
 // skills.js
 
 import React from "react";
+import "./Skills.css";
 
 function Skills(){
     return(

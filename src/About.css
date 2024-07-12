@@ -1,14 +1,19 @@
 #about {
-    /* text-align: center; */
+    text-align: center;
     /* background-color: #282c34; */
-    background-color: whitesmoke;
+    /* background-color: rgba(129, 129, 129, 0.408); */
 
 }
 
 #about h2 {
-    color: #282c34;
+    /* color: #282c34; */
+    color: white;
 }
 
 #about p {
-    color: #282c34;
+    /* color: #282c34; */
+    color: white;
+    font-weight:bold;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
