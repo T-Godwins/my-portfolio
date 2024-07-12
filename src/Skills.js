@@ -7,7 +7,14 @@ function Skills(){
     return(
         <section id="skills">
             <h2>Skills</h2>
-            <p>Python, JS, CSS, HTML, C++, Tableau</p>
+            <ul>
+            <li>Python</li>
+            <li> JS </li>
+            <li> CSS </li>
+            <li> HTML</li>
+            <li> C++</li>
+            <li>Tableau</li>
+            </ul>
         </section>
     );
 }

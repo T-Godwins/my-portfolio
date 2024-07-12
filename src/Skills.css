@@ -6,7 +6,8 @@
     color: white
 }
 
-#skills p{
+#skills ul{
+    text-align: left;
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
