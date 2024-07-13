@@ -1,16 +1,21 @@
 .App {
   text-align: center;
+  background-color: rgba(103, 70, 98, 0.592);
+}
+
+.App-header {
+  padding: 20px;
+  color: white;
+  height:min-content;
   background-image: url("/Users/tuyishimeg/Desktop/Rwanda.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.App-header {
-  background-color: #282c34c1;
-  padding: 20px;
+  padding: 200px 50px; /* Increase padding to make the header larger */
   color: white;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the height */
 }
 
 
@@ -28,15 +33,28 @@
   margin-bottom: 20px;
 }
 
+.App-header nav {
+  margin-top: 20px;
+  position: sticky; 
+  top: 0;
+  width: 100%;
+}
+
 .App-header nav a{
   margin: 0 15px;
   color: #61dafb;
-  text-decoration: none;
+  font-weight: bold;
 }
 
 .App-header nav a:hover {
   text-decoration: underline;
 }
+
+.App-header nav button {
+  background-color: gray;
+  border: none;
+}
+
 
 main {
   display: flex;
