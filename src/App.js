@@ -15,7 +15,7 @@ function App() {
       <header className="App-header">
         <h1>Hello, I am</h1>
         <h2>Godwins Tuyishime</h2>
-        <nav>
+        <nav className='Nav'>
           <button>
           <a href="https://drive.google.com/file/d/168XfY4fgx6ERkzLJKtzPMrg_eiRtVfQ6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
           </button>
