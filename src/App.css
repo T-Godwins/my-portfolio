@@ -26,11 +26,15 @@
 .App-header h1 {
   font-size: 1em;
   margin: 1px;
+  position: sticky; 
+  top: 0;
 }
 
 .App-header h2 {
   font-size: 3em;
   margin-bottom: 20px;
+  position: sticky; 
+  top: 0;
 }
 
 .App-header nav {
@@ -38,21 +42,34 @@
   position: sticky; 
   top: 0;
   width: 100%;
+  /* background-color: rgba(40, 44, 52, 0.8); */
 }
 
 .App-header nav a{
   margin: 0 15px;
   color: #61dafb;
-  font-weight: bold;
+  font-size: large;
+
+  
+  top: 0;
 }
 
 .App-header nav a:hover {
-  text-decoration: underline;
-}
+font-weight: bold;}
 
 .App-header nav button {
+  background-color: transparent;
+  border: none;
+  
+}
+.App-header nav button:hover {
   background-color: gray;
   border: none;
+  
+}
+
+.rounded-button {
+  border-radius: 20px;
 }
 
 
