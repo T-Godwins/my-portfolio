@@ -7,6 +7,7 @@ function Skills(){
     return(
         <section id="skills">
             <h2>Skills</h2>
+            <img src="/Users/tuyishimeg/Desktop/Python.PNG" alt="Python" className="Python" />
             <ul>
             <li>Python</li>
             <li> JS </li>
